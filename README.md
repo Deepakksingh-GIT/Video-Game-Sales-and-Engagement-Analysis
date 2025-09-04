@@ -1,4 +1,8 @@
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/7bc11e66-c666-41be-a384-18dc0d028192" /># Video-Game-Sales-and-Engagement-Analysis
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/3a03c38c-f7b8-48ee-a8bc-e95f30997bd4" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/7bc11e66-c666-41be-a384-18dc0d028192" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/40325102-1776-4dba-bc11-d8e2a0cba218" />
+
+# Video-Game-Sales-and-Engagement-Analysis
 Data Cleaning, Analysis, and Visualization of Video Game Sales &amp; Engagement using Python (Pandas, Matplotlib, Seaborn), SQL, and Power BI
 
 
