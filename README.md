@@ -3,56 +3,168 @@
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/e745006d-37bd-4a4e-8314-e727ac65993d" />
 
 
-# Video-Game-Sales-and-Engagement-Analysis
-Data Cleaning, Analysis, and Visualization of Video Game Sales &amp; Engagement using Python (Pandas, Matplotlib, Seaborn), SQL, and Power BI
+# 🎮 Video Game Sales and Engagement Analysis
 
+## 📌 Project Overview
 
-# Technologies Used
-Python: Pandas, Matplotlib, Seaborn
-SQL: MySQL for database creation and queries
-Power BI: Dashboard creation
-GitHub: Project version control and sharing
+This project focuses on analyzing video game sales and user engagement data to identify key factors that influence the success of video games across different regions and genres.
 
-# Data Cleaning
-Removed unwanted columns and duplicates
-Standardized column names
-Converted K values (e.g., 12K → 12000)
-Handled missing values (ratings, publishers, summaries)
-Converted dates to YYYY-MM-DD format
-Created clean_title column for dataset merging
+The analysis helps uncover insights that can support business decisions for game developers, publishers, and marketing teams.
 
-# Analysis Questions & Insights
-Top-rated games by user reviews
-Top developers (teams) by average rating
-Most common game genres
-Games with highest backlog-to-wishlist ratio
-Trend of game releases across years
-Top 10 most wishlisted games
-Average plays per genre
-Most productive developer studios
-Regional sales distribution (NA, EU, JP, Others)
-Best-selling platforms globally
-Yearly game releases vs global sales
-Top 10 publishers by global sales
-Top 10 best-selling games globally
-Regional sales by platform
-Genre preferences by region
-High engagement but low sales genres
-Correlation between wishlist/backlogs and ratings
-Top-performing Genre + Platform combinations
-Regional sales heatmap by genre
-Top 5 best-selling games per platform
+---
 
-# Sample Visualizations
-Bar charts for top-rated games & genres
-Line charts for sales trends over years
-Scatter plots for ratings vs sales
-Heatmaps for regional sales by genre
-Power BI dashboards for interactive insights
+## ❗ Problem Statement
 
+The video game industry generates billions in revenue, but success depends on multiple factors such as genre, platform, and regional preferences. However, companies often struggle to identify which factors significantly impact game sales and player engagement.
 
-# SQL Database
-Database: VideoGamesDB
-games table → game metadata
-sales table → regional/global sales
-merged_df table → combined dataset
+This project aims to analyze historical video game data to uncover patterns and relationships between sales, genre, platform, and region, helping stakeholders make data-driven decisions.
+
+---
+
+## 🎯 Objective
+
+The main objectives of this project are:
+
+* Analyze global video game sales trends
+* Identify top-performing genres and platforms
+* Understand regional preferences (NA, EU, JP, Others)
+* Explore relationship between engagement and sales
+* Build an interactive dashboard for insights
+
+---
+
+## 🛠️ Tools & Technologies Used
+
+* **Python** (Pandas, NumPy) – Data cleaning & preprocessing
+* **MySQL** – Data storage and querying
+* **Power BI** – Data visualization & dashboard creation
+* **Excel/CSV** – Dataset handling
+
+---
+
+## 📂 Dataset
+
+* Source: Public dataset (Video Game Sales Data)
+* Includes:
+
+  * Game Title
+  * Platform
+  * Year of Release
+  * Genre
+  * Publisher
+  * Regional Sales (NA, EU, JP, Others)
+  * Global Sales
+
+---
+
+## 🔄 Project Workflow
+
+### 1. Data Cleaning (Python)
+
+* Handled missing values
+* Removed duplicates
+* Standardized column formats
+* Checked data consistency
+
+### 2. Database Creation (MySQL)
+
+* Imported cleaned dataset into database
+* Created structured tables
+* Used SQL queries for analysis
+
+### 3. Data Analysis (SQL)
+
+* Total global sales calculation
+* Top genres by sales
+* Regional sales comparison
+* Platform-wise performance
+
+### 4. Data Visualization (Power BI)
+
+* Created interactive dashboard
+* KPIs included:
+
+  * Total Sales
+  * Top Genres
+  * Regional Distribution
+  * Yearly Trends
+
+---
+
+## 📊 Key Insights
+
+* 🎯 Action and Sports genres generate the highest global sales
+* 🌍 North America is the largest video game market
+* 🇯🇵 Japan shows strong preference for RPG games
+* 📈 Higher engagement correlates with better sales performance
+* 🕹️ Platform popularity changes over time
+
+---
+
+## 💼 Business Impact
+
+This analysis can help:
+
+* Game companies decide which genres to invest in
+* Marketing teams target specific regions effectively
+* Publishers plan future game releases based on trends
+
+---
+
+## ⚠️ Challenges Faced
+
+* Handling missing and inconsistent data
+* Structuring and cleaning raw datasets
+* Performing accurate regional comparisons
+
+---
+
+## 🚀 Future Improvements
+
+* Add predictive modeling for sales forecasting
+* Perform deeper correlation and trend analysis
+* Integrate real-time datasets
+* Enhance dashboard interactivity
+
+---
+
+## 📸 Dashboard Preview
+
+*(Add Power BI screenshots here)*
+
+---
+
+## 📁 Project Structure
+
+```
+Video-Game-Sales-and-Engagement-Analysis/
+│
+├── data/
+├── sql/
+├── notebooks/
+├── dashboard/
+├── README.md
+```
+
+---
+
+## 🔗 GitHub Repository
+
+👉 https://github.com/Deepakksingh-GIT/Video-Game-Sales-and-Engagement-Analysis
+
+---
+
+## 👨‍💻 Author
+
+**Deepak Kumar Singh**
+
+* Data Analyst Aspirant
+* 4+ years experience in US Recruitment
+* Skills: Python, SQL, Power BI
+
+---
+
+## ⭐ Support
+
+If you found this project useful, please give it a ⭐ on GitHub!
+
