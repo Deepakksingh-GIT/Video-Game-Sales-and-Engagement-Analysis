@@ -1,8 +1,3 @@
-#"My first interactive Power BI dashboard visualizing Sales, Wishlist, and Ratings trends with dynamic filters and drill-downs"
-
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/e745006d-37bd-4a4e-8314-e727ac65993d" />
-
-
 # 🎮 Video Game Sales and Engagement Analysis
 
 ## 📌 Project Overview
@@ -41,6 +36,22 @@ The main objectives of this project are:
 * **Excel/CSV** – Dataset handling
 
 ---
+
+## 💼 Business Use Cases
+
+### Game Marketing Strategy
+- Identify high-performing genres and platforms  
+- Target regions with high demand  
+
+### Product Development
+- Focus on features that improve ratings and engagement  
+
+### Sales Forecasting
+- Use historical data trends to estimate future demand  
+
+### Resource Allocation
+- Invest in platforms and genres with proven success
+- 
 
 ## 📂 Dataset
 
@@ -91,13 +102,15 @@ The main objectives of this project are:
 
 ---
 
-## 📊 Key Insights
+## 📊 Key Insights from Dashboard
 
-* 🎯 Action and Sports genres generate the highest global sales
-* 🌍 North America is the largest video game market
-* 🇯🇵 Japan shows strong preference for RPG games
-* 📈 Higher engagement correlates with better sales performance
-* 🕹️ Platform popularity changes over time
+- Action and Sports genres dominate global sales  
+- North America contributes the highest revenue  
+- High ratings do not always guarantee high sales  
+- Wishlist shows user interest but is not a direct indicator of revenue  
+- Certain platforms consistently outperform others  
+
+These insights help guide marketing and development decisions.
 
 ---
 
@@ -130,10 +143,20 @@ This analysis can help:
 
 ## 📸 Dashboard Preview
 
-*(Add Power BI screenshots here)*
+#"My first interactive Power BI dashboard visualizing Sales, Wishlist, and Ratings trends with dynamic filters and drill-downs"
 
----
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/e745006d-37bd-4a4e-8314-e727ac65993d" />
 
+## 📊 Power BI Dashboard
+
+The Power BI dashboard was developed as part of this project to visualize key insights such as:
+
+- Genre-wise sales distribution  
+- Platform performance  
+- Regional sales comparison  
+- Ratings vs sales analysis
+- 
+⚠️ Note: The original `.pbix` file is currently unavailable. However, the dashboard design and insights are demonstrated through screenshots below.
 ## 📁 Project Structure
 
 ```
